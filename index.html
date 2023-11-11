@@ -6,6 +6,7 @@
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link href="Kenia-Regular.ttf" rel="stylesheet">
   
 </head>
 <body>
@@ -15,7 +16,7 @@
     <div id="slika" > 
   
     
-        <div id="logo" > <img src="images/logo.png" alt=""> <p>ODIN</p>  </div>
+        <div id="logo" > <p>JOIN THE JUNGLE</p>  </div>
         
      
              <img src="images/background.jpg" >
@@ -50,12 +51,12 @@
               <p>  You know you want to.</p>
            <form action=""> 
             
-            <h3>Let's do this!</h3>
+            <h3>Your information please.</h3>
             
         <div id="ftree">
             <div id="line">
                 <label for="fname">First Name:</label>
-                    <input type="text" name="fname" id="fname" placeholder="Name">
+                    <input  required type="text" name="fname" id="fname" placeholder="Name" >
 
            </div> 
         
@@ -63,7 +64,7 @@
 
            <div id="line">
             <label for="Lname">Last Name:</label>
-                <input type="text" name="Lname" id="Lname" placeholder="Surname">
+                <input  required type="text" name="Lname" id="Lname" placeholder="Surname">
 
        </div> 
     
@@ -71,7 +72,7 @@
 
        <div id="line">
         <label for="email">Email:</label>
-            <input pattern="	^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,})$" type="email" name="Email" id="Email" placeholder="example@gmail.com">
+            <input  required  pattern="	([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,})$" type="email" name="Email" id="Email" placeholder="example@gmail.com">
 
    </div> 
    
@@ -80,20 +81,20 @@
 <div id="second">
    <div id="line">
     <label for="number">Phone Number:</label>
-        <input pattern="" type="number" name="number" id="number">
+        <input  required  type="number" name="number" id="number" >
 
 </div> 
 
 
 <div id="line">
     <label for="password">Password:</label>
-        <input type="password" name="pass" id="pass">
+        <input  required type="password" name="pass" id="pass" >
 
 </div> 
  
 <div id="line">
     <label for="password">Confirm Password:</label>
-        <input type="password" name="pass" id="pass">
+        <input required type="password" name="pass" id="pass">
 
 </div> 
 
@@ -102,6 +103,7 @@
 
         </form>
 
+        <button type="submit" > Submit</button>
 
     </div>
 
