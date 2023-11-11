@@ -1,0 +1,117 @@
+body {
+width: 100%;
+height: 100%;
+}
+
+html {
+width: 100%;
+height: 100%;
+}
+#sve {
+
+display: flex;
+flex-direction: row;
+height: 100%;
+width: 100%;
+
+}
+
+
+ div #slika {
+position: relative;
+
+   width: 50%;
+   height: 100% ;
+}
+
+#slika img {
+display: flex;
+
+height: 100%;
+width: 100%;
+
+
+
+}
+
+div #text {
+
+margin: 3rem;
+
+
+}
+
+
+
+form {
+margin-top: 10rem;
+
+background: white;
+box-shadow: 5px 5px 5px;
+display: flex;
+
+width: 100%;
+
+justify-content: space-around;
+border: 1px grey solid;
+}
+
+#prva {
+display: flex;
+margin: 15px;
+
+}
+
+#line {
+
+display: flex ;
+flex-direction: column;
+width: 100%;
+margin: 40px;
+}
+
+h3 {
+
+font-size: 1.6rem;
+
+
+}
+
+p {
+width: 100%;
+    padding: 10px;
+font-size: 1.6rem;
+font-weight: 700;
+
+
+
+
+}
+
+div #logo {
+    display: flex;
+    flex-direction: row;
+align-items: center;
+justify-content: center;
+    margin-top: 6rem;
+position: absolute;
+
+width: 100%;
+height: 25%;
+background: hsla(0, 0%, 0%, 0.4)
+}
+
+#logo img {
+    padding-left: 6rem;
+    width: 40%;
+    height: 60%;
+    
+
+
+}
+
+#logo p {
+font-size: 5rem;
+color: white;
+font: 1rem;
+}
